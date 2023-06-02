@@ -1,0 +1,13 @@
+1st Step - In the Panagram Comp folder open the NODE-server and run the in on CMD or on VS Code activate the  node server.
+2nd Step - In the Panagram Comp folder Open now the Panagram-MobApp - Finals Output.
+3rd Step - When the App is running you need first to sign up an account and after a successfull sign up the program 			   will redirect you to login page.
+4th Step - Login your account (note: incase you forget your account you can look at the server to see your account)
+5th Step - Enjoy the Mobile Application sir!
+
+NOTE(our application is not yet 100% functioning but in the future we will execute it).
+
+
+Members of this group 
+1. Isabela Grace Malicad
+2. Jeff Cabildo
+3. Oalden Morales

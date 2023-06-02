@@ -1,0 +1,185 @@
+
+@keyframes zoom-in {
+    0% {transform: scale(1);}
+    50% { transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+
+.header{
+    background-color: black;
+
+}
+.favi{
+    margin-top: 1000px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+
+.images{
+    width:130px;
+    margin-left: 5px;
+   
+}
+
+.images{
+    transition: all 0.2s ease-in-out;
+}
+
+
+.images:active{
+    animation: zoom-in 0.2s ease-in-out;
+    transform: scale(1.1);
+    background-color: #d3d3d3;
+}
+
+.images:hover{
+    background-color: #d3d3d3;
+}
+
+
+.wrap{
+    max-height: 230px;
+    border: 0px;
+    display:flex; 
+    margin-left: 10px;
+   
+}
+
+
+
+.wrap .ebook{
+ min-width: 110px;
+ height: 220px;
+ line-height: 110px;
+ text-align: center;
+ margin-left: 15px;
+}
+
+
+
+
+.title1{
+    margin-left: -130px;
+    margin-top: 250px;
+}
+
+
+
+.title2{
+    margin-left: -130px;
+    margin-top: 250px;
+}
+
+
+
+.title3{
+    margin-left: -130px;
+    margin-top: 250px;
+}
+
+
+
+.title4{
+    margin-left: -130px;
+    margin-top: 250px;
+}
+
+
+
+.title5{
+    margin-left: -130px;
+    margin-top: 250px;
+}
+
+
+
+.title6{
+    margin-left: -130px;
+    margin-top: 250px;
+}
+
+.home{
+    color: #fff;
+}
+
+.library{
+    color: orangered;
+}
+
+.favorites{
+    color: #fff;
+}
+
+.favorites:active{
+    color: #ddd;
+}
+
+
+
+.navhome:active{
+    color: orangered;
+}
+
+.navlibrary:active{
+    color: violet;
+}
+
+.navaccount:active{
+    color: orangered;
+}
+.navbar{
+    margin-bottom: -3px;
+    height: 30px;
+    width: 50px;
+    border: 0px;
+    display:flex;
+    margin-left: -9px;
+  
+}
+
+
+.navbar .navhome{
+    min-width: 135px;
+    height: 30px;
+    line-height: 150px;
+    text-align: center;
+    margin-left: -25px;
+    margin-bottom: 12px;
+   color: #fff;
+}
+
+
+.navbar .navlibrary{
+    min-width: 150px;
+    height: 30px;
+    line-height: 150px;
+    text-align: center;
+    margin-left: -40px;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+
+.navbar .navfavorites{
+    min-width: 80px;
+    height: 30px;
+    line-height: 150px;
+    text-align: center;
+    margin-left: -15px;
+    margin-bottom: 12px;
+    color: orangered;
+}
+
+
+.navbar .navaccount{
+    min-width: 60px;
+    height: 30px;
+    line-height: 150px;
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+

@@ -1,0 +1,123 @@
+
+@keyframes bounce{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-10px);}
+    100% {transform: translateY(0);}
+}
+
+@keyframes zoom-in {
+    0% {transform: scale(1);}
+    50% { transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+
+
+
+.head2{
+    opacity: 0.80;
+   border: 0px;
+}
+
+.icon{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    opacity: 50%;
+    margin-top: 80px;
+    
+}
+
+.header{
+    max-height: 230px;
+    border: 0px;
+    display:flex;
+   
+}
+
+
+.header .head{
+    min-width: 50px;
+    height: 30px;
+    line-height: 110px;
+    text-align: center;
+    margin: 20px;
+   
+   }
+
+   .head{
+    transition: all 0.2s ease-in-out;
+    color: #d3d3d3;
+   }
+
+   .head:active{
+    animation: zoom-in 0.2s ease-in-out;
+    transform: scale(1.5);
+    
+   }
+
+   .head:active{
+    color: orangered;
+   }
+
+   
+
+   .fault{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+    margin-top: 20px;
+   }
+
+   .desc{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 25px;
+    text-align: center;
+   }
+
+   .chainsawstory{
+    border: 0px;
+    border-radius: 15px;
+    width: 400px;
+    height: 1610px;
+    margin-left: -9px; 
+    background: #5f5f5f;
+    text-align-last: center;
+    font-family: Poppins;
+    padding:1%;
+   }
+   
+   .chainsawbook{
+    font-size: 25px;
+    margin-left: -20px;
+   }
+   .storyline2{
+    text-align-last: center;
+    margin: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: Poppins;
+   }
+
+   .line1{
+    text-align-last: center;
+    margin: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15px;;
+    letter-spacing: 1px;
+    font-family: Poppins;
+   }
+
+   
+   .btnslide{
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   }
+   
+
+   
+

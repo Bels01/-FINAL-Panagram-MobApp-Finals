@@ -1,0 +1,7 @@
+{
+  "name": "Panagram",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

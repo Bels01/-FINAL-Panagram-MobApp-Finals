@@ -1,0 +1,32 @@
+.paymentsec{
+    border: 0px ;
+    height: 350px;
+    padding-top: 1%;
+    margin-top: 10px;
+    padding: 8%;
+  }
+  
+  .txtInput{
+    width: 350px;
+    border: 0px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #333333;
+    color:#fff;
+    height: 50px;
+    font-size: 18px;
+  
+  }
+  
+  .pay{
+      text-align: center;
+  }
+  
+  .btnpay{
+      height:50px;
+      border-radius: 30px;
+      width: 250px;
+      margin-left: 50px;
+     
+  }

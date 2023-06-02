@@ -1,0 +1,97 @@
+
+@keyframes zoom-in {
+    0% {transform: scale(1);}
+    50% { transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+
+.ion-padding{
+    text-align: center;
+}
+
+.profname{
+    margin-top: 150px;
+    position: relative;
+}
+
+.update{
+ margin-top: 60px;
+ font-size: 25px;
+}
+
+
+.img{
+    margin-top: 20px;
+    width: 120px;
+    height: 180px;
+    margin-left: 130px;
+   position: fixed; 
+}
+
+
+.page{
+   margin-left: auto;
+   margin-right: auto;
+   color: #fff;
+   position: fixed;
+   --overflow: hidden;
+}
+
+.optbtn{
+    width: 300px;
+    color: #fff;
+    background-color: grey;
+    border-radius: 50px;
+    border: 0px;
+    position: relative;
+    margin-left: -10px;
+   
+    
+}
+
+.buttons{
+    margin-top: 100px;
+    display:inline-block;
+   
+}
+
+.uploader{
+    position: fixed;
+    margin-left: -50px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.contain{
+    border: 1px solid black;
+    height: 450px;
+    border-radius: 30px;
+    background-color: #222222;
+}
+
+input[type='file']{
+    color: rgba(0, 0, 0, 0);  
+}
+
+.arrowback{
+    height: 35px;
+    width: 35px;
+    margin-left: 15px;
+}
+
+.arrowback{
+    transition: all 0.2s ease-in-out;
+    color: #d3d3d3;
+   }
+
+   .arrowback:active{
+    animation: zoom-in 0.2s ease-in-out;
+    transform: scale(1.5);
+    
+   }
+
+   .arrowback:active{
+    color: orangered;
+   }
+
+  
